@@ -15,6 +15,16 @@ int main() {
     }
 
     // put your code here
-    //
+    string curr;
+    for(int i = 0; i < line.size(); i++) {
+      if(line[i] == ' ') {
+        cout << curr << " ";
+        curr = "";
+      } else {
+        curr = line[i] + curr;
+      }
+    }
+
+    cout << curr << endl;
   }
 }
