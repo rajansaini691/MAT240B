@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11  -pthread -Wall -Wno-deprecated-declarations -O4 -DNDEBUG  -rdynamic CMakeFiles/scratch_sendto.dir/scratch/sendto.cpp.o  -o scratch_sendto -Wl,-rpath,/home/rajan/Repositories/allolib_playground/rajan/build/my-first-app/Release/al_ext/statedistribution/cuttlebone libcuttlebone.so -lpthread -lrt 
